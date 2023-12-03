@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>MVP - Tairik</title>
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h2>Previsão para diagnóstico de RAA</h2>
+        </div>
+        <div class="banner">
+            <img src="https://images.contentstack.io/v3/assets/blt6f84e20c72a89efa/bltbdc99f8d9f97dc4c/6261d4d11677fc28cf2347da/common-dog-surgical-procedures-img_article-head.jpg?width=1200&height=630&fit=crop"
+                alt="y">
+        </div>
+    </header>
+
+     <section class="raaPredictionSection">
+        <select id="raca">
+            <option value="1">Raça 1</option>
+            <option value="2">Raça 2</option>
+        </select>
+        <input type="text" id="idade" placeholder="Idade">
+        <select id="sexo">
+            <option value="1">Masculino</option>
+            <option value="2">Feminino</option>
+        </select>
+        <select id="dieta">
+            <option value="1">PTN Hidrolisada</option>
+            <option value="2">Caseira</option>
+        </select>
+         <select id="cocou">
+            <option value="1">Coçou</option>
+            <option value="2">Não coçou</option>
+        </select>
+        <span onclick="newPet()" class="addBtn">Prever Diagnóstico RAA</span>
+    </section>
+
+     <section class="animal" id="sectionDogs">
+         <span>Diagnóstico RAA:</span> <span id="raa"></span>
+    </section>
+
+
+    <br><br><br><br>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

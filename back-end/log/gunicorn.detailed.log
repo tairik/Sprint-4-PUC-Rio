@@ -1,0 +1,25 @@
+[2023-11-25 09:22:51,239] INFO _log() L224  192.168.68.102 - - [25/Nov/2023 09:22:51] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-25 09:23:23,043] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:4000
+ * Running on http://192.168.68.102:4000 (Press CTRL+C to quit) - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-25 09:23:23,049] INFO _log() L224   * Restarting with stat - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-25 09:23:24,692] INFO _log() L224  192.168.68.102 - - [25/Nov/2023 09:23:24] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-25 09:23:24,749] INFO _log() L224  192.168.68.102 - - [25/Nov/2023 09:23:24] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-25 09:23:24,753] INFO _log() L224  192.168.68.102 - - [25/Nov/2023 09:23:24] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-25 09:23:24,758] INFO _log() L224  192.168.68.102 - - [25/Nov/2023 09:23:24] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-25 09:23:25,077] INFO _log() L224  192.168.68.102 - - [25/Nov/2023 09:23:25] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-25 09:23:25,210] INFO _log() L224  192.168.68.102 - - [25/Nov/2023 09:23:25] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-25 09:23:33,691] INFO _log() L224  192.168.68.102 - - [25/Nov/2023 09:23:33] "POST /raa HTTP/1.1" 200 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-25 09:24:39,058] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:4000
+ * Running on http://192.168.68.102:4000 (Press CTRL+C to quit) - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-25 09:24:39,062] INFO _log() L224   * Restarting with stat - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-25 09:24:55,082] INFO _log() L224  192.168.68.102 - - [25/Nov/2023 09:24:55] "POST /raa HTTP/1.1" 200 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-25 09:25:39,876] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:4000
+ * Running on http://192.168.68.102:4000 (Press CTRL+C to quit) - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-25 09:25:39,879] INFO _log() L224   * Restarting with stat - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-25 09:25:54,063] INFO _log() L224  192.168.68.102 - - [25/Nov/2023 09:25:54] "POST /raa HTTP/1.1" 200 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 

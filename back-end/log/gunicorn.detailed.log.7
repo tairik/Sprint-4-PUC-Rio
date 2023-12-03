@@ -1,0 +1,68 @@
+[2023-11-24 22:48:54,670] ERROR log_exception() L1449 Exception on /raa [GET] - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/flask/app.py L1449
+Traceback (most recent call last):
+  File "/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/flask_openapi3/scaffold.py", line 109, in wrapper
+    resp = _do_wrapper(
+  File "/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/flask_openapi3/do_wrapper.py", line 135, in _do_wrapper
+    response = func(**request_kwargs)
+  File "/Users/tairik/PycharmProjects/mvp-tairik/rest_api_pets/app.py", line 61, in get_raa
+    return apresenta_raa(prediction), 200
+  File "/Users/tairik/PycharmProjects/mvp-tairik/rest_api_pets/schemas/dog.py", line 38, in apresenta_raa
+    "id": dog.id,
+AttributeError: 'numpy.ndarray' object has no attribute 'id'
+[2023-11-24 22:48:54,700] INFO _log() L224  192.168.68.102 - - [24/Nov/2023 22:48:54] "[35m[1mGET /raa HTTP/1.1[0m" 500 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-24 22:50:13,666] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:4001
+ * Running on http://192.168.68.102:4001 (Press CTRL+C to quit) - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-24 22:50:14,030] INFO _log() L224  192.168.68.102 - - [24/Nov/2023 22:50:14] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-24 22:50:14,135] INFO _log() L224  192.168.68.102 - - [24/Nov/2023 22:50:14] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-24 22:50:14,188] INFO _log() L224  192.168.68.102 - - [24/Nov/2023 22:50:14] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-24 22:50:14,190] INFO _log() L224  192.168.68.102 - - [24/Nov/2023 22:50:14] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-24 22:50:14,430] INFO _log() L224  192.168.68.102 - - [24/Nov/2023 22:50:14] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-24 22:50:14,490] INFO _log() L224  192.168.68.102 - - [24/Nov/2023 22:50:14] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-24 22:50:14,494] INFO _log() L224  192.168.68.102 - - [24/Nov/2023 22:50:14] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-24 22:50:14,498] INFO _log() L224  192.168.68.102 - - [24/Nov/2023 22:50:14] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-24 22:50:14,972] INFO _log() L224  192.168.68.102 - - [24/Nov/2023 22:50:14] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-24 22:50:15,267] INFO _log() L224  192.168.68.102 - - [24/Nov/2023 22:50:15] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-24 22:52:49,849] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:4001
+ * Running on http://192.168.68.102:4001 (Press CTRL+C to quit) - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-24 22:52:53,564] INFO _log() L224  192.168.68.102 - - [24/Nov/2023 22:52:53] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-24 22:52:53,684] INFO _log() L224  192.168.68.102 - - [24/Nov/2023 22:52:53] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-24 22:52:53,685] INFO _log() L224  192.168.68.102 - - [24/Nov/2023 22:52:53] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-24 22:52:53,687] INFO _log() L224  192.168.68.102 - - [24/Nov/2023 22:52:53] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-24 22:52:54,634] INFO _log() L224  192.168.68.102 - - [24/Nov/2023 22:52:54] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-24 22:52:54,832] INFO _log() L224  192.168.68.102 - - [24/Nov/2023 22:52:54] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2023-11-24 22:52:59,855] ERROR log_exception() L1449 Exception on /raa [GET] - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/flask/app.py L1449
+Traceback (most recent call last):
+  File "/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/flask_openapi3/scaffold.py", line 109, in wrapper
+    resp = _do_wrapper(
+  File "/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/flask_openapi3/do_wrapper.py", line 135, in _do_wrapper
+    response = func(**request_kwargs)
+  File "/Users/tairik/PycharmProjects/mvp-tairik/rest_api_pets/app.py", line 64, in get_raa
+    return apresenta_raa(prediction), 200
+  File "/Users/tairik/PycharmProjects/mvp-tairik/rest_api_pets/schemas/dog.py", line 38, in apresenta_raa
+    "id": dog.id,
+AttributeError: 'numpy.ndarray' object has no attribute 'id'
+[2023-11-24 22:52:59,881] INFO _log() L224  192.168.68.102 - - [24/Nov/2023 22:52:59] "[35m[1mGET /raa HTTP/1.1[0m" 500 - - call_trace=/Users/tairik/PycharmProjects/mvp-tairik/venv/lib/python3.9/site-packages/werkzeug/_internal.py L224 
