@@ -9,7 +9,7 @@ O produto desenvolvido tem como objetivo prever se o animal terá RAA em funçã
 
 Por fim, para a documentação da API, foi usado Swagger.
 ---
-## Link para Colab: https://colab.research.google.com/drive/1AjynX5aR-y6LMosfu25qL7g4I4IGAuXC#scrollTo=RCn8CH4M7wF-
+## Link para Colab: https://colab.research.google.com/drive/1AjynX5aR-y6LMosfu25qL7g4I4IGAuXC?usp=sharing
 
 ## Como executar o Back-End
 

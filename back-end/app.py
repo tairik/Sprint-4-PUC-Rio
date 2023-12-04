@@ -5,7 +5,7 @@ from flask_cors import CORS
 import pandas as pd
 from pickle import load
 
-info = Info(title="PetDiet Pets API", version="1.0.0")
+info = Info(title="RAA Pets API", version="1.0.0")
 app = OpenAPI(__name__, info=info)
 CORS(app)
 
