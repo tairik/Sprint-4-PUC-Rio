@@ -8,8 +8,6 @@ Dentre muitas doenças que levam a sintomas cutâneos e/ou gastrointestinais, a 
 O produto desenvolvido tem como objetivo prever se o animal terá RAA em função da dieta, idade, raça, sintoma gastrointestinal e/ou cutâneo (análise clínica do cão) sendo um ferramenta preditiva bastante importante para o início da triagem pelo médico veterinário nutrólogo. 
 
 Por fim, para a documentação da API, foi usado Swagger.
----
-## Link para Colab: https://colab.research.google.com/drive/1AjynX5aR-y6LMosfu25qL7g4I4IGAuXC#scrollTo=RCn8CH4M7wF-
 
 ## Como executar o Back-End
 
