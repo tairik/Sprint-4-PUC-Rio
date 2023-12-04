@@ -1,4 +1,4 @@
-# Pets API
+# RAA - APU / Front-End
 
 Este pequeno projeto faz parte do MVP do curso de Pós-Gradução em **Engenharia de Software** 
 
