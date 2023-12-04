@@ -1,4 +1,4 @@
-# RAA - APU / Front-End
+# RAA - API / Front-End
 
 Este pequeno projeto faz parte do MVP do curso de Pós-Gradução em **Engenharia de Software** 
 
