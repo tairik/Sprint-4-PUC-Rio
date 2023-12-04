@@ -11,7 +11,7 @@ Por fim, para a documentação da API, foi usado Swagger.
 ---
 ## Link para Colab: https://colab.research.google.com/drive/1AjynX5aR-y6LMosfu25qL7g4I4IGAuXC#scrollTo=RCn8CH4M7wF-
 
-## Como executar 
+## Como executar o Back-End
 
 Será necessário ter todas as libs python listadas no `requirements.txt` instaladas.
 Após clonar o repositório, é necessário ir ao diretório raiz, pelo terminal, para poder executar os comandos descritos abaixo.
@@ -40,4 +40,8 @@ automaticamente após uma mudança no código fonte.
 ```
 
 Abra o [http://localhost:4000/#/](http://localhost:4000/#/) no navegador para verificar o status da API em execução.
+
+## Como executar o Front-End
+
+Fazer o clone do projeto localmente e abrir o arquivo index.html que se encontra dentro da pasta "front-end" no seu browser.
 
